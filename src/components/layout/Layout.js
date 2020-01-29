@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/main.css"
-import Header from "./header"
-import Footer from "./footer"
+import Header from "./Header"
+import Footer from "./Footer"
 import { Container } from "react-bootstrap"
 
 export default function Layout({ children }){
