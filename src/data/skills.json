@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "skill": "HTML5",
+        "icon": "fab fa-html5"
+    },
+    {
+        "id": 2,
+        "skill": "CSS3",
+        "icon": "fab fa-css3"
+    },
+    {
+        "id": 3,
+        "skill": "JavaScript",
+        "icon": "fab fa-js-square"
+    },
+    {
+        "id": 4,
+        "skill": "NodeJS",
+        "icon": "fab fa-node"
+    },
+    {
+        "id": 5,
+        "skill": "React",
+        "icon": "fab fa-react"
+
+    },
+    {
+        "id": 6,
+        "skill": "LESS",
+        "icon": "fab fa-less"
+    },
+    {
+        "id": 7,
+        "skill": "SASS",
+        "icon": "fab fa-sass"
+    },
+    {
+        "id": 8,
+        "skill": "Bootstrap",
+        "icon": "fab fa-bootstrap"
+    },
+    {
+        "id": 9,
+        "skill": "Git",
+        "icon": "fab fa-git"
+    }
+
+]

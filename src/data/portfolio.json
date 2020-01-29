@@ -1,0 +1,44 @@
+[
+    {   
+        "project_id": 1,
+        "title":"Hacker News Salt Mine",
+        "slug":"portfolio/hacker-news-salt-mine",
+        "url":"https://saltmine.netlify.com/",
+        "githubURL": "https://github.com/Build-Week-Saltiest-Hacker-News-1/Front-End",
+        "image":"SaltMine.PNG",
+        "caption":"A salty comment leaderboard displaying quantified salty comments from Hacker News website",
+        "description": "A collaboration between Web Developent and Data Science students. In this project, I worked closely with another 3 react frontend developers to develop front end state management and represent data retreieved from Backend. The raw data in the project is retreived from Hacker News API and quantified by Data Science students ",
+        "technology": ["React", "Redux", "React-Bootstrap", "Bootstrap 4"],
+        "teamOrIndividual": "Team",
+        "role": "Front End Developer",
+        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+    },
+    {   
+        "project_id": 2,
+        "title":"Curio - A Collector's Hoard",
+        "slug":"portfolio/curio",
+        "url":"https://curio-app.netlify.com/",
+        "githubURL": "https://github.com/curio-app/frontend",
+        "image":"CurioApp.PNG",
+        "caption":"A platform where collectors post pictures and show off their collections",
+        "description": "This is a Hackathon project built within the span of 30 hours. I worked in a team of 8 developers where my role was a react front end developer. I built Upload pages with paginations, and Single Item page where it displays the data of an individual item.",
+        "technology": ["HTML", "CSS3", "React"],
+        "teamOrIndividual": "Team",
+        "role": "Front End Developer",
+        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+    },
+    {
+        "project_id": 3,
+        "title":"Restaurant Passport Marketing Website",
+        "slug":"portfolio/restaurant-passport",
+        "url":"https://myrestaurantpassport.netlify.com/",
+        "githubURL": "https://github.com/Restaurant-Passport-BW/User-Interface",
+        "image": "RestaurantPassport.PNG",
+        "caption":"A multi-page marketing website for Restaurant Passport application.",
+        "description": "This is my first team project. I worked in a team of 4 developer and 1 UX designer. I created the marketing landing page, about page, and a sample page inside of the application",
+        "technology": ["HTML5", "CSS3", "LESS", "JavaScript"],
+        "teamOrIndividual": "Team",
+        "role": "User Interface Developer",
+        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {   
+        "name": "LinkedIn",
+        "contactId":"linkedin",
+        "url":"https://www.linkedin.com/in/mashimabutton",
+        "icon": "fab fa-linkedin"
+    },
+    {   
+        "name": "Github",
+        "contactId":"github",
+        "url":"https://github.com/zimashima",
+        "icon": "fab fa-github-square"
+    },
+    {   
+        "name": "Twitter",
+        "contactId":"twitter",
+        "url":"https://twitter.com/_zimashima",
+        "icon": "fab fa-twitter-square"
+    },
+    {   
+        "name": "Email",
+        "contactId":"email",
+        "url":"mailto:mashima.button@gmail.com",
+        "icon": "fas fa-envelope"
+    }
+]
