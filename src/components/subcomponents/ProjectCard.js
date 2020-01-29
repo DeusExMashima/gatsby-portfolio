@@ -8,7 +8,7 @@ export default function ProjectPreview({ project, imageData}) {
         <>
         
         <Card className="projectCard bg-dark m-4 mx-auto" style={{width:`30rem`}}>
-        <a href={`http://localhost:8000/${project.slug}`}>
+        <a href={`https://mashima-portfolio.netlify.com/${project.slug}`}>
             <Img fluid={imageData.node.fluid} alt="Screen Shot of the project"/>
             <Card.Body>
             <Card.Title variant="h4" className="text-secondary">{project.title}</Card.Title>
