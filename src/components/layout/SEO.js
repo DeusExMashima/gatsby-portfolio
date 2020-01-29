@@ -3,22 +3,19 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 export default function SEO({ description, lang, meta, title }) {
-  const data = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
-    {
+      query {
         site {
           siteMetadata {
-            author
-            description
             title
+            description
+            author
           }
         }
-      }  
+      }
     `
   )
-
-  const siteDescription = description || data.site.siteMetadata.description
-  const siteTitle = data.site.siteMetadata.title
 
   return (
     <Helmet
@@ -26,12 +23,7 @@ export default function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${siteTitle}`}
-      meta={
-        {
-          name: `description`,
-          content: siteDescription,
-        }}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
     >
       <script src="https://kit.fontawesome.com/20764a4eaf.js" crossorigin="anonymous"></script>
     </Helmet>
