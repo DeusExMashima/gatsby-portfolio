@@ -12,7 +12,7 @@ export default function Navigation() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 </Nav>
-                <Nav>
+                <Nav className="align-items-center">
                 <Nav.Link><Link to="/">Home</Link></Nav.Link>
                 <Nav.Link><Link to="/about">About</Link></Nav.Link>
                 <Nav.Link><Link to="/portfolio">Portfolio</Link></Nav.Link>

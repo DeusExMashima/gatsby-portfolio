@@ -2,8 +2,8 @@
 
 
 $theme-colors: (
-  "primary": salmon,
-  "secondary": #17a2b8,
+  "primary": #17a2b8,
+  "secondary": salmon,
   "dark": #2E2B29,
   "info": #ffc107,
 );
@@ -13,13 +13,13 @@ $body-color: #fff;
 
 $link-color:                              #fff !default;
 $link-decoration:                         none !default;
-$link-hover-color:                        salmon !default;
+$link-hover-color:                        #17a2b8 !default;
 $link-hover-decoration:                   underline !default;
 
 $font-family-base: 'Raleway', sans-serif;
 
 h1,h2,h3,h4,h5,h6 {
-  color: salmon;
+  color: #17a2b8;
   margin: 20px 0 20px 0;
 }
 
@@ -45,7 +45,7 @@ p {
 
   &:hover{
     transform: scale(1.2);
-    color: #17a2b8;
+    color: salmon;
     transition: 0.3s;
   }
 }
@@ -83,7 +83,7 @@ footer a {
   font-size: 1.6rem;
   border-radius: 10px;
   color: #222222;
-  background-color: salmon;
+  background-color: #17a2b8;
 }
 
 
@@ -93,7 +93,7 @@ nav a {
   text-decoration: none;
 
   &:hover{
-    color: salmon;
+    color: #17a2b8;
     text-decoration: none;
   }
 }
