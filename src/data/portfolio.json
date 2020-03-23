@@ -1,17 +1,17 @@
 [
     {   
         "project_id": 1,
-        "title":"Hacker News Salt Mine",
-        "slug":"portfolio/hacker-news-salt-mine",
-        "url":"https://saltmine.netlify.com/",
-        "githubURL": "https://github.com/Build-Week-Saltiest-Hacker-News-1/Front-End",
-        "image":"SaltMine.PNG",
-        "caption":"A salty comment leaderboard displaying quantified salty comments from Hacker News website",
-        "description": "A collaboration between Web Developent and Data Science students. In this project, I worked closely with another 3 react frontend developers to develop front end state management and represent data retreieved from Backend. The raw data in the project is retreived from Hacker News API and quantified by Data Science students ",
-        "technology": ["React", "Redux", "React-Bootstrap", "Bootstrap 4"],
+        "title":"Story Squad",
+        "slug":"portfolio/story-squad",
+        "url":"https://story-squad.netlify.com/",
+        "githubURL": "https://github.com/Lambda-School-Labs/story-squad-fe/",
+        "image":"StorySquad.PNG",
+        "caption":"A gamified application aims to make reading and writing fun for children",
+        "description": "This is the project where I and my team picked up and built on the previous team's foundation. Our team established the new game mechanism and built on top of what we already have. We had to quickly pick up the stack that previous team used such as typescript and typeORM, studied their sophisticated codebase, and built in inaccordance to the stake holder's vision",
+        "technology": ["React", "Context API", "Typescript", "TypeORM", "PostgreSQL", "Material-UI"],
         "teamOrIndividual": "Team",
-        "role": "Front End Developer",
-        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+        "role": "Full Stack Web Developer",
+        "projectType": "Capstone Project"
     },
     {   
         "project_id": 2,
@@ -39,6 +39,20 @@
         "technology": ["HTML5", "CSS3", "LESS", "JavaScript"],
         "teamOrIndividual": "Team",
         "role": "User Interface Developer",
+        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+    },
+    {
+        "project_id": 4,
+        "title":"DevDesk Queue",
+        "slug":"portfolio/devdesk",
+        "url":"https://dev-desk.now.sh/",
+        "githubURL": "https://github.com/Build-Week-Dev-Desk/BackEnd",
+        "image": "DevDesk.PNG",
+        "caption":"An application for students to get help with technical inquiries",
+        "description": "In this project, I designed database schema and built a backend for user registration, authentication, and ticket submissions. Since there were 3 types of users, I also utilized JWT token, and secured access to resources to specific users. I also wrote integration and unit testing on my backend.",
+        "technology": ["Node.js", "Express.js", "Knex.js", "PostgreSQL", "Jest"],
+        "teamOrIndividual": "Team",
+        "role": "Backend Developer",
         "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
     }
 ]
