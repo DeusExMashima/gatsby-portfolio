@@ -25,7 +25,7 @@ export default function ContactForm() {
                     <Form.Control as="textarea" name="message" rows="4" placeholder="Enter your message/inquiry" />
                 </Form.Group>
                     <span style={{margin: "1rem"}}><Button variant="primary" type="submit" value="Send">Submit</Button></span>
-                    <span><Button variant="secondary" type="reset" value="Reset">Reset</Button></span>
+                    <span><Button variant="info" type="reset" value="Reset">Reset</Button></span>
                     
             </Form>
         </div>

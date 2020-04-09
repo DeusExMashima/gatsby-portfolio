@@ -1,8 +1,8 @@
 module.exports = {
 
     siteMetadata:{
-        title: "Mashima Button",
-        description: "",
+        title: "Portfolio of Mashima Button",
+        description: "Full Stack Developer available for hire in Orlando FL or Remote. Specialized in Single Page Application, and both frontend and backend development.",
         author: "Mashima Button"
     },
 

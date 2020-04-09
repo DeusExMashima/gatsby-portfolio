@@ -37,7 +37,7 @@ function Connect(el){
 
     return(
         <div className="socialLink rounded" id={el.el.contactId}>
-            <Button href={el.el.url} variant="secondary" style={{width: `150px`}}>
+            <Button href={el.el.url} variant="primary" style={{width: `150px`}}>
                 <i className={el.el.icon} /> {el.el.name} 
             </Button>
         </div>

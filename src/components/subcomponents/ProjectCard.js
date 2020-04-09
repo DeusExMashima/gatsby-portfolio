@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
+import {Link} from 'gatsby'
 import Img from 'gatsby-image'
 
 export default function ProjectPreview({ project, imageData}) {
@@ -7,18 +8,20 @@ export default function ProjectPreview({ project, imageData}) {
     return (
         <>
         
-        <Card className="projectCard bg-dark m-4 mx-auto" style={{width:`30rem`}}>
-            <Img fluid={imageData.node.fluid} alt="Screen Shot of the project"/>
-            <Card.Body>
-            <Card.Title variant="h4" className="text-secondary">{project.title}</Card.Title>
-            <Card.Subtitle>{project.caption}</Card.Subtitle>
-            <div className="d-flex justify-content-around m-3">
-                <Button variant="outline-secondary" href={`http://www.mashimabutton.com/${project.slug}`}>More Info...</Button>
-                <Button variant="outline-secondary" href={`${project.githubURL}`}>Github</Button>
-                <Button variant="outline-secondary" href={`${project.url}`}>Demo</Button>
+        <div className="mx-auto mb-5" style={{width:`20rem`}}>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+                <Img fluid={imageData.node.fluid} alt="Screen Shot of the project"/>
             </div>
-            </Card.Body>
-        </Card>
+            <h4 style={{fontSize: '22px'}}className="mt-3 mb-3 text-secondary">
+                <Link className="project-title-link" to={`/${project.slug}`}>{project.title}</Link>
+            </h4>
+            <p style={{fontSize: '16px'}} className="mb-3">{project.caption}</p>
+            <div className="d-flex justify-content-start">
+                <Button size="sm" className="button mr-2" variant="outline-secondary" href={`http://www.mashimabutton.com/${project.slug}`}>More Info...</Button>
+                <Button size="sm" className="button mr-2" variant="outline-secondary" href={`${project.githubURL}`}>Github</Button>
+                <Button size="sm" className="button mr-2" variant="outline-secondary" href={`${project.url}`}>Demo</Button>
+            </div>
+        </div>
         
         </>
     )

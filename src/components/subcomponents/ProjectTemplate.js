@@ -48,7 +48,7 @@ export default function ProjectTemplate({ pageContext }) {
             <p>{pageContext.role}</p>
             <h4>Technology Used</h4>
             {
-                pageContext.technology.map(tech => (<><Badge variant="info" className="mr-1" style={{fontSize: `1rem`}}>{tech}</Badge>{` `}</>))
+                pageContext.technology.map(tech => (<><Badge variant="info" className="m-2" style={{fontSize: `1rem`}}>{tech}</Badge>{` `}</>))
             }
             <div className="mt-4">
             <Button href={pageContext.url} className="mr-4 mb-2 mt-2" variant="secondary"><i className="fas fa-globe m-1"/>Live Demo</Button>
