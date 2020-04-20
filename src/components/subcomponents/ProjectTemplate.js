@@ -52,7 +52,7 @@ export default function ProjectTemplate({ pageContext }) {
             }
             <div className="mt-4">
             <Button href={pageContext.url} className="mr-4 mb-2 mt-2" variant="secondary"><i className="fas fa-globe m-1"/>Live Demo</Button>
-            <Button href={pageContext.githubURL} className="mb-2 mt-2" variant="secondary"><i className="fab fa-github-square m-1"/>Github</Button>
+            <Button href={pageContext.githubURL} className="mb-2 mt-2" variant="secondary"><i className="fab fa-github-square m-1"/>GitHub</Button>
             </div>
             <Button href={`http://www.mashimabutton.com/portfolio`} className="mt-4" variant="dark" style={{width: `100%`}}>Back to Portfolio</Button>
             </Col>
