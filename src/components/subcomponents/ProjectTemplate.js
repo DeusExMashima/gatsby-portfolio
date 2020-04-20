@@ -48,11 +48,11 @@ export default function ProjectTemplate({ pageContext }) {
             <p>{pageContext.role}</p>
             <h4>Technology Used</h4>
             {
-                pageContext.technology.map(tech => (<><Badge variant="info" className="m-2" style={{fontSize: `1rem`}}>{tech}</Badge>{` `}</>))
+                pageContext.technology.map(tech => (<><Badge variant="info" className="mr-2 mb-2" style={{fontSize: `1rem`}}>{tech}</Badge>{` `}</>))
             }
             <div className="mt-4">
-            <Button href={pageContext.url} className="mr-4 mb-2 mt-2" variant="secondary"><i className="fas fa-globe m-1"/>Live Demo</Button>
-            <Button href={pageContext.githubURL} className="mb-2 mt-2" variant="secondary"><i className="fab fa-github-square m-1"/>GitHub</Button>
+            <Button href={pageContext.url} className="mr-4 mb-2" variant="secondary"><i className="fas fa-globe m-1"/>Live Demo</Button>
+            <Button href={pageContext.githubURL} className="mb-2" variant="secondary"><i className="fab fa-github-square m-1"/>GitHub</Button>
             </div>
             <Button href={`http://www.mashimabutton.com/portfolio`} className="mt-4" variant="dark" style={{width: `100%`}}>Back to Portfolio</Button>
             </Col>

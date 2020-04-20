@@ -50,7 +50,7 @@
         "image": "DevDesk.PNG",
         "caption":"An application for students to get help with technical inquiries",
         "description": "In this project, I designed database schema and built a backend for user registration, authentication, and ticket submissions. Since there were 3 types of users, I also utilized JWT token, and secured access to resources to specific users. I also wrote integration and unit testing on my backend.",
-        "technology": ["Node.js", "Express.js", "Knex.js", "PostgreSQL", "Jest"],
+        "technology": ["Node.js", "Express.js", "Knex.js", "PostgreSQL", "Jest", "JWT", "Bcrypt"],
         "teamOrIndividual": "Team",
         "role": "Backend Developer",
         "projectType": "Monthly Team Project/ Unit Demonstration Mastery"

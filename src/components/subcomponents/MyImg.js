@@ -20,7 +20,7 @@ export default function MyImg(props){
   const [ image ] = data.allImageSharp.edges.filter(el => el.node.fluid.originalName === "mashima-pic.jpg")
     return(
         <> 
-          <div className="my-img rounded-lg overflow-hidden m-3">
+          <div className="my-img rounded-lg overflow-hidden">
             <Img fluid={image.node.fluid} alt="Mashima Button's Photo" />
           </div>
         </>

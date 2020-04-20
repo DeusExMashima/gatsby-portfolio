@@ -8,9 +8,11 @@ export default function ProjectPreview({ project, imageData}) {
     return (
         <>
         
-        <div className="mx-auto mb-5" style={{width:`20rem`}}>
-            <div className="rounded-lg overflow-hidden shadow-lg">
-                <Img fluid={imageData.node.fluid} alt="Screen Shot of the project"/>
+        <div className="project-card mx-auto mb-5">
+            <div className="rounded-lg overflow-hidden shadow-lg project-img">
+                <Link to={`/${project.slug}`}>
+                    <Img fluid={imageData.node.fluid} alt={`Screen Shot of ${project.title}'s website`} />
+                </Link>
             </div>
             <h4 style={{fontSize: '22px'}}className="mt-3 mb-3 text-secondary">
                 <Link className="project-title-link" to={`/${project.slug}`}>{project.title}</Link>

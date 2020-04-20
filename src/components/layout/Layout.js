@@ -9,9 +9,9 @@ export default function Layout({ children }){
     return (
         <>
             <Header />
-                <Container className="pageContent d-flex align-items-center mt-3 mb-3">
+                <div className="container-xl pageContent d-flex align-items-center mt-3 mb-3">
                     <main>{ children }</main>
-                </Container>
+                </div>
             <Footer />
         </>
     )

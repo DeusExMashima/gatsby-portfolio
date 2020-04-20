@@ -37,7 +37,7 @@ export default function Projects() {
     const projectList = data.allPortfolioJson.nodes
 
     return (
-        <div className="d-flex flex-wrap mt-5">
+        <div className="d-flex flex-wrap mt-5 justify-content-between">
 
             {
                 projectList.map(project => {
