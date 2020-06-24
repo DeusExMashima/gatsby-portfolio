@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                     <p>Copyrights {new Date().getFullYear()} © <a href="/">Mashima Button</a></p>
                     <p>Built with
-                    <a href="https://www.gatsbyjs.org">Gatsby</a> | Styled with <a href="https://react-bootstrap.github.io/">React-Bootstrap</a>&amp;<a href="https://getbootstrap.com/">Bootstrap</a></p>
+                    <a href="https://www.gatsbyjs.org"> Gatsby</a> | Styled with <a href="https://react-bootstrap.github.io/">React-Bootstrap</a> &amp; <a href="https://getbootstrap.com/">Bootstrap</a></p>
             </footer>
         </>
     )
