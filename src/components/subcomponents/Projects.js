@@ -6,33 +6,34 @@ import ProjectCard from './ProjectCard'
 export default function Projects() {
     
     const data = useStaticQuery(graphql`
-        {
-            allPortfolioJson {
-                nodes {
-                    description
-                    githubURL
-                    image
-                    projectType
-                    caption
-                    role
-                    slug
-                    teamOrIndividual
-                    technology
-                    title
-                    url
-                }
+    {
+        allImageSharp {
+          edges {
+            node {
+              fluid {
+                ...GatsbyImageSharpFluid
+                originalName
+              }
             }
-            allImageSharp {
-                edges {
-                node {
-                    fluid {
-                        ...GatsbyImageSharpFluid
-                        originalName
-                    }
-                }
-                }
-            }
+          }
         }
+        allPortfolioJson {
+          nodes {
+            description
+            githubURL
+            caption
+            id
+            image
+            role
+            slug
+            teamOrIndividual
+            technology
+            title
+            url
+            project_id
+          }
+        }
+      }
         `)
     const projectList = data.allPortfolioJson.nodes
 
@@ -43,7 +44,6 @@ export default function Projects() {
                 projectList.map(project => {
 
                     const [ image ] = data.allImageSharp.edges.filter(el => el.node.fluid.originalName === project.image)
-                    console.log(project)
                     return (
                         <>
                             <ProjectCard project={project} imageData={image} />

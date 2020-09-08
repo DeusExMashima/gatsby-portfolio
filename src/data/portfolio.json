@@ -1,9 +1,23 @@
 [
     {   
         "project_id": 1,
+        "title":"Co-Unity",
+        "slug":"portfolio/co-unity",
+        "url":"https://co-unity.netlify.app",
+        "githubURL": "https://github.com/team-button/co-unity-fe",
+        "image":"CoUnity.png",
+        "caption":"An application for raising and prioritizing issues for local communities",
+        "description": "Another developer and I picked up one of projects from Lambda School project week list and work on it together. We both worked as frontend and backend developers where I also designed User Interface and overall application architecture.",
+        "technology": ["React", "Redux", "Bootstrap", "Node.js", "Express.js", "PostgreSQL"],
+        "teamOrIndividual": "Team",
+        "role": "Full Stack Web Developer",
+        "projectType": "Independent Group Project"
+    },
+    {   
+        "project_id": 2,
         "title":"Story Squad",
         "slug":"portfolio/story-squad",
-        "url":"https://story-squad.netlify.com/",
+        "url":"https://master.d37ier1k83jxk6.amplifyapp.com/",
         "githubURL": "https://github.com/Lambda-School-Labs/story-squad-fe/",
         "image":"StorySquad.PNG",
         "caption":"A gamified application aims to make reading and writing fun for children",
@@ -14,7 +28,7 @@
         "projectType": "Capstone Project"
     },
     {   
-        "project_id": 2,
+        "project_id": 3,
         "title":"Curio - A Collector's Hoard",
         "slug":"portfolio/curio",
         "url":"https://curio-app.netlify.com/",
@@ -28,7 +42,7 @@
         "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
     },
     {
-        "project_id": 3,
+        "project_id": 4,
         "title":"Restaurant Passport",
         "slug":"portfolio/restaurant-passport",
         "url":"https://myrestaurantpassport.netlify.com/",
@@ -42,7 +56,7 @@
         "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
     },
     {
-        "project_id": 4,
+        "project_id": 5,
         "title":"DevDesk Queue",
         "slug":"portfolio/devdesk",
         "url":"https://dev-desk.now.sh/",
