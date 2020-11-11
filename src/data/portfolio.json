@@ -29,20 +29,6 @@
     },
     {
         "project_id": 3,
-        "title":"Restaurant Passport",
-        "slug":"portfolio/restaurant-passport",
-        "url":"https://myrestaurantpassport.netlify.com/",
-        "githubURL": "https://github.com/Restaurant-Passport-BW/User-Interface",
-        "image": "RestaurantPassport.PNG",
-        "caption":"A multi-page marketing website for Restaurant Passport application.",
-        "description": "This is my first team project. I worked in a team of 4 developer and 1 UX designer. I created the marketing landing page, about page, and a sample page inside of the application",
-        "technology": ["HTML5", "CSS3", "LESS", "JavaScript"],
-        "teamOrIndividual": "Team",
-        "role": "User Interface Developer",
-        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
-    },
-    {
-        "project_id": 4,
         "title":"DevDesk Queue",
         "slug":"portfolio/devdesk",
         "url":"https://dev-desk.now.sh/",
@@ -53,6 +39,48 @@
         "technology": ["Node.js", "Express.js", "Knex.js", "PostgreSQL", "Jest", "JWT", "Bcrypt"],
         "teamOrIndividual": "Team",
         "role": "Backend Developer",
+        "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
+    },
+    {
+        "project_id": 4,
+        "title":"Co-Unity",
+        "slug":"portfolio/counity",
+        "url":"https://co-unity.netlify.app/",
+        "githubURL": "https://github.com/Build-Week-Dev-Desk/BackEnd",
+        "image": "CoUnity.png",
+        "caption":"An application for everyone to voice and prioritize community issues",
+        "description": "In this project, I work in a team of 2. I designed Front End flow and aesthetic and its architecture. I also developed backend add, edit, delete, and voting system",
+        "technology": ["React.js", "Bootstrap", "Redux","Node.js", "Express.js", "Knex.js", "JWT", "Bcrypt"],
+        "teamOrIndividual": "Team",
+        "role": "Full Stack Web Developer",
+        "projectType": "Independent Team Project"
+    },
+    {
+        "project_id": 5,
+        "title":"Story Squad Mini App",
+        "slug":"portfolio/ss-miniapp",
+        "url":"https://co-unity.netlify.app/",
+        "githubURL": "https://github.com/Build-Week-Dev-Desk/BackEnd",
+        "image": "SSMiniApp.png",
+        "caption":"An Application where everyone can participate in a daily writing contest",
+        "description": "I was responsible mostly for translating Figma design by our UX designer to Frontend with React. I also developed ranking system",
+        "technology": ["React", "Bootstrap", "Node.js", "Express.js", "Knex.js", "PostgreSQL", "JWT", "Bcrypt"],
+        "teamOrIndividual": "Team",
+        "role": "Full Stack Web Developer (Frontend Oriented)",
+        "projectType": "Independent Team Project"
+    },
+    {
+        "project_id": 6,
+        "title":"Restaurant Passport",
+        "slug":"portfolio/restaurant-passport",
+        "url":"https://myrestaurantpassport.netlify.com/",
+        "githubURL": "https://github.com/Restaurant-Passport-BW/User-Interface",
+        "image": "RestaurantPassport.PNG",
+        "caption":"A multi-page marketing website for Restaurant Passport application.",
+        "description": "This is my first team project. I worked in a team of 4 developer and 1 UX designer. I created the marketing landing page, about page, and a sample page inside of the application",
+        "technology": ["HTML5", "CSS3", "LESS", "JavaScript"],
+        "teamOrIndividual": "Team",
+        "role": "User Interface Developer",
         "projectType": "Monthly Team Project/ Unit Demonstration Mastery"
     }
 ]
