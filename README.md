@@ -2,7 +2,6 @@
 
 This is the source code for my Portfolio website. It is my first time using Gatsby and overall it has been a pleasant experience experimenting the framework!
 
-Deployed Site: [https://mashimabutton.com](https://mashimabutton.com)
 
 ## Tech Stack
 **GatsbyJS**
@@ -17,6 +16,7 @@ Aside from that:
 * Well defined web design pattern
 * Seamless hosting with Netlify 
 * Great documentation and can easily find other resources online
+* Get my feet wet with GraphQL!
 
 **React-Bootstrap**
 * Well-defined and ready to use components
